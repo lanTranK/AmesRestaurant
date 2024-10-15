@@ -1,0 +1,91 @@
+{
+    "restaurants": [
+      {
+        "name": "McDonald's ",
+        "category": "Fast Food",
+        "address": "129 South Duff",
+        "rating": 5,
+        "image": "https://images.unsplash.com/photo-1650374635206-3e45282e9360?q=80&w=2834&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "name": "Chick-fil-A",
+        "category": "Fast Food",
+        "address": "230 S Duff Ave",
+        "rating": 5,
+        "image": "https://media.gettyimages.com/id/1495192441/photo/novato-california-in-this-photo-illustration-a-chick-fil-a-meal-is-displayed-at-a-chick-fil-a.jpg?s=612x612&w=0&k=20&c=GvM4s6dUzpxK_VOFypXfzlSIoP4YS1x9ySgpspKbCB4="
+      },
+      {
+        "name": "Wendy's",
+        "category": "Fast Food",
+        "address": "528 South Duff Ave",
+        "rating": 3,
+        "image": "https://media.gettyimages.com/id/1168056349/photo/wendys-hamburgers.jpg?s=612x612&w=0&k=20&c=65A-U3jUd_QgC_Skj45La1wmhqzQuA1r3GfZpzFuHEc="
+      },
+      
+      {
+        "name": "Domino's",
+        "category": "Pizza",
+        "address": "302 Lincoln Way",
+        "rating": 5,
+        "image": "https://media.gettyimages.com/id/1243549684/photo/dominos-pizza-indias-largest-pizza-chain-hasannounced-the-launch-of-a-new-range-of-6-new.jpg?s=612x612&w=0&k=20&c=11fEUIi51whSq-IRYy7wxcXorIn4eIwTah3Gl3pDZfk="
+      },
+      {
+        "name": "Pizza Hut",
+        "category": "Pizza",
+        "address": "620 Lincoln Way",
+        "rating": 4,
+        "image": "https://media.gettyimages.com/id/1174202318/photo/gothenburg-sweden-american-restaurant-chain-and-international-franchise-pizza-hut-logo-seen.jpg?s=612x612&w=0&k=20&c=4i2DqXoRwlnKh-fx8kTxHY_JrAOKWAQ767f5cPOCPOY="
+      },
+      {
+        "name": "Papa Johns",
+        "category": "Pizza",
+        "address": "707 24th St",
+        "rating": 4,
+        "image": "https://media.gettyimages.com/id/1231340600/photo/a-papa-johns-international-inc-pepperoni-pizza-arranged-in-louisville-kentucky-u-s-on-monday.jpg?s=612x612&w=0&k=20&c=5JQG5fiW9P13dOKGTosBtIqgkc_Gioyfvy6Kg_BiYtQ="
+      },
+      {
+        "name": "Taco el primo",
+        "category": "Mexican",
+        "address": "305 Lincoln Way",
+        "rating": 4,
+        "image": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/240604896_138931318403900_1636591275440291264_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=2ybWmBPmAW8Q7kNvgEWJCV-&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=AytR84vSleNe1vloK2GO2EN&oh=00_AYBPq-LQS67uF0Mkv6T-6IVm0nncRPhTENqr1ZYRhQa23A&oe=6713A57A"
+      },
+      {
+        "name": "Chipotle Mexican Grill",
+        "category": "Mexican",
+        "address": "435 Duff Ave",
+        "rating": 4,
+        "image": "https://media.gettyimages.com/id/866379700/photo/chicago-il-food-is-served-at-a-chipotle-restaurant-on-october-25-2017-in-chicago-illinois.jpg?s=612x612&w=0&k=20&c=Q4EhLa9cFaRQHWQrkp3PzSdmcfunfs80LOK1LcMWZmg="
+      },
+      {
+        "name": "Mr. Burrito",
+        "category": "Mexican",
+        "address": "2508 Lincoln Way",
+        "rating": 4,
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/4d/af/9d/mr-burrito.jpg?w=1400&h=-1&s=1"
+      },
+      {
+        "name": "Le's Restaurant",
+        "category": "Asian",
+        "address": "113 Corlorado Ave",
+        "rating": 4,
+        "image": "https://media.istockphoto.com/id/483120255/photo/asian-oranage-chicken-with-green-onions.jpg?s=612x612&w=0&k=20&c=0T_g_J5OSnmCei1Slgr1128wzAhzceRvLjd94R3gkgs="
+      },
+      {
+        "name": "Wok N Roll",
+        "category": "Asian",
+        "address": "120 Welch Ave",
+        "rating": 4,
+        "image": "https://lh3.googleusercontent.com/p/AF1QipMAShdAW5J_8zaCtp7nkJxXVd4CqQaXMWcDe5FK=s1360-w1360-h1020"
+      },
+      {
+        "name": "1+1 Restaurant & Tea",
+        "category": "Asian",
+        "address": "2814 West Street",
+        "rating": 4,
+        "image": "https://lh3.googleusercontent.com/p/AF1QipOO527QtRJ3UhmSYJMspiWyhfo8-vyslkkWW12V=s1360-w1360-h1020"
+      }
+      
+    ]
+  }
+  
