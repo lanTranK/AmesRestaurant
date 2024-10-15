@@ -105,3 +105,13 @@ body {
 .nav-link:hover {
     color: #e76f51 !important;
 }
+
+.inline-item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.professor, .team {
+    white-space: nowrap;
+}
+

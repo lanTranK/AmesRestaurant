@@ -3,10 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Title</title>
+    <title>About Us</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .more {
+            display: none;
+        }
+
+        img {
+            height: 250px;
+            width: 200px;
+        }
+        .inline-item {
+            margin-bottom: 5px;
+        }
+
+        .profileOf {
+            display: grid; 
+            align-items: center; 
+            grid-template-columns: 1fr 3fr; 
+            column-gap: 5px; 
+        }
+        
+        button{
+            background-color: #fbc2c2; 
+            color: rgba(11, 11, 11, 0.475);
+            border: none; 
+            border-radius: 20px; 
+            padding: 7px 17px;
+            font-size: 18px; 
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s; 
+        }
+
+        button:hover {
+            background-color: #b37b7b; 
+            transform: scale(1.05);
+        }
+
+        button:active {
+            transform: scale(0.90);
+        }
+
+        .linkedin-link {
+            text-decoration: none; /* Removes underline from link */
+            color: #0077b5; /* LinkedIn brand color */
+            font-weight: bold; /* Makes text bold */
+            display: flex; /* Use flexbox for logo and text */
+            align-items: center; /* Center logo and text vertically */
+            gap: 10px; /* Space between logo and text */
+            margin-top: 10px; /* Margin above the link */
+        }
+
+        .linkedin-logo {
+            width: 24px; /* Set logo width */
+            height: 24px; /* Set logo height */
+            vertical-align: middle; /* Align logo vertically */
+        }
+        .info {
+            height: auto;
+            background-color: rgb(128, 183, 183);
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
 
@@ -32,9 +94,71 @@
             </div>
         </div>
     </nav>
+
+<!-- Intro -->
+<div class="info">
+    <h1 class="text-center text-white">SE/ComS3190 Construction of User Interfaces</h1>
+</div>
+
 <!-- Content Section -->
 <div class="container mt-4">
-    
+    <div id="background">
+    <div class="profileOf">
+        <img src="./images/professor.PNG" alt="Dr.Abraham" class="inline-item">
+        <div class="inline-item">
+            <strong>Name:</strong> Dr. Abraham Aldaco<br>
+            <strong>Email:</strong> aaldaco@iastate.edu<br>
+            <strong>Office:</strong> 0111 Durham Center<br>
+            <strong>Biolography:</strong> Ph. D. in Computer Science from the Arizona State University<span class="less">...</span><span class="more">. Experience in applied statistics, 
+            design of experiments (DOE), machine learning (ML), simulation, modeling, data structures, networking, software development and testing.
+            He has worked at TEC de Monterrey Mexico, 
+            Arizona State University (ASU), Center for Research in Physics (UNISON), IBM, General Electric, 
+            Intel and independent consultant.</span>
+            <button onclick="myFunction(event)" class="myBtn">Read more</button>
+        </div>
+    </div>
+
+    <div class="profileOf">
+        <img src="./images/masterD.jpg" alt="MasterD" class="inline-item">
+        <div class="inline-item">
+            <strong>Name:</strong> Dai Tran<br>
+            <strong>Email:</strong> daitran@iastate.edu<br>
+            <strong>Major:</strong> Software Engineering<br>
+            <a href="https://www.linkedin.com/in/lan-tran-00a396233/" target="_blank" class="linkedin-link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" class="linkedin-logo">
+                My LinkedIn
+            </a>
+            <strong>About me:</strong> My name is Dai Tran, and I am a senior Software Engineering student 
+            at<span class="less">...</span><span class="more"> Iowa State University. 
+            Throughout my academic journey, I have developed coding skills, particularly in Java and C, 
+            and gained experience in building websites. I am very excited to learn more skills and apply them 
+            to the project.</span>
+            <button onclick="myFunction(event)" class="myBtn">Read more</button>
+        </div>
+    </div>
+
+    <div class="profileOf">
+        <img src="./images/profile.jpg" alt="profile" class="inline-item">
+        <div class="inline-item">
+        <strong>Name:</strong> Lan Tran<br>
+        <strong>Email:</strong> lktran@iastate.edu<br>
+        <strong>Major:</strong> Computer Science<br>
+        <a href="https://www.linkedin.com/in/lan-tran-00a396233/" target="_blank" class="linkedin-link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" class="linkedin-logo">
+            My LinkedIn
+        </a>
+        <strong>About me:</strong> My name is Lan Tran, and I am currently pursuing a Bachelor of Science in<span class="less">...</span><span class="more">Computer Science. 
+            I have always wanted to explore various aspects of web development, also making my personal website 
+            in purpose to perform the result of studying it. As a Computer Science major, I have gained a strong foundation
+             in programming and software development. My focus is on building efficient, user-friendly web applications. 
+             Before taking COMS319, I had a fair knowledge of front-end technologies such as JavaScript, HTML, and CSS, and various ideas, 
+             which encouraged me to go deep into web development and work out a project. I am very excited to 
+             learn more skills and apply them to the project.</span>
+
+            <button onclick="myFunction(event)" class="myBtn">Read more</button>
+        </div>
+    </div>
+</div>
 </div>
    
 
@@ -56,6 +180,7 @@
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="index.js"></script>
+    <script src="index2.js"></script>
 
 </body>
 </html>
